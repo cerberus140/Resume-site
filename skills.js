@@ -1,7 +1,7 @@
 import React from 'react'
 
 export const skills =()=> {
-    return{
+    return (
         <div>
             <h1>Skills</h1>
             <ul>
@@ -14,5 +14,5 @@ export const skills =()=> {
                 <li>Stong leadership skills</li>
             </ul>
         </div>
-    }
+    )
 };

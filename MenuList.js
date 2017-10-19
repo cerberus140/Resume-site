@@ -14,7 +14,7 @@ export class menuList extends React.Component {
         this.props.onClick(choice);
     }
     render() {
-        return {
+        return (
             <div>
                 <select id="sections" onClick={this.handleClick}>
                     <option value={aboutMe}>About Me</option>
@@ -23,6 +23,6 @@ export class menuList extends React.Component {
                     <option value={hobbies}>Hobbies</option>
                 </select>
             </div>
-        }
+        )
     }
 }
