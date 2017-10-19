@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const aboutMe =()=> {
-    return {
+    return (
         <div>
             <h1>About Me</h1>
             <ul>
@@ -12,5 +12,5 @@ export const aboutMe =()=> {
             </ul>
         </div>
 
-    };
+    );
 };

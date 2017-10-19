@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const hobbies =()=>{
-    return{
+    return (
         <div>
             <h1>Hobbies</h1>
             <ul>
@@ -15,5 +15,5 @@ export const hobbies =()=>{
                 <li>Classic Cars</li>
             </ul>
         </div>
-    }
+    )
 };
